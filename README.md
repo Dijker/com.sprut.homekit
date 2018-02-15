@@ -5,6 +5,10 @@
 After Homey is paired, go to "settings" -> "HomeKit". There select the devices you want to pair with "HomeKit" and wait =)
 Example of work: https://www.youtube.com/watch?v=yZWt6jDCl7E (New video from Homey the work)
 
+Forum => https://forum.athom.com/discussion/3958/app-homekit-app-sprut
+
+Remote access in HomeKit: https://support.apple.com/en-us/HT207057
+
 If you have problems update your "I" device & Apple TV. On iOS 11 everything works perfectly. If you don't see for example the "SPEAKER" look here https://itunes.apple.com/us/app/elgato-eve/id917695792?mt=8
 
 If the problem remained fully describe the situation. If you found any bugs, any other feature you can create an issue on [com.sprut.homekit](https://github.com/sprut666666/com.sprut.homekit)
@@ -32,12 +36,13 @@ Now supports the types:
 - Vacuum cleaner
 - Button (simple and Play/Pause etc)
 - Doorbell button (as Motion sensor)
+- Occupancy sensor
 
 + Battery service for all
 
 ---
 
-### Donate
+### About
 Many thanks to the developer who wrote the library [has-node](https://github.com/abedinpour/HAS) Without which the application cannot run ;)
 Many thanks [abedinpour](https://github.com/abedinpour) so much for the work done.
 
@@ -46,23 +51,61 @@ Many thanks [Swttt](https://github.com/swttt) so much for the work done.
 
 And I [Sprut](https://github.com/sprut666666) - engaged in ongoing app development =)
 
-
-If you like the app, you can thank the authors:
-
-
-[Sprut](https://github.com/sprut666666) PayPal: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://paypal.me/sprut666666) or Yandex: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://money.yandex.ru/to/410014789265242)
-
-&&&&&
-
-[Swttt](https://github.com/swttt) PayPal: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://paypal.me/BasJansen)
-
-&&&&&
-
-[abedinpour](https://github.com/abedinpour) PayPal: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png)](https://www.paypal.me/HamyarP)
-
 ---
 
 ### Changelog
+
+#### 1.4.0
+- update has-node@0.4.11
+- update athom-api@2.0.93
+- Now you can add 150 devices
+- Memory optimization
+
+#### 1.3.5
+- update has-node@0.4.9
+- critical fixes
+
+#### 1.3.3
+- update has-node@0.4.8
+
+#### 1.3.2
+- update has-node@0.4.6
+- update athom-api@2.0.92
+- fix "No response"
+
+#### 1.3.1
+- update has-node@0.4.5
+- update athom-api@2.0.91
+
+#### 1.2.4
+- update has-node@0.3.4
+
+#### 1.2.3
+- update has-node@0.3.3
+- update athom-api@2.0.72
+
+#### 1.2.2
+- update has-node@0.3.1
+- update athom-api@2.0.71
+- fix delete device
+
+#### 1.2.1
+- update has-node@0.2.6
+- update athom-api@2.0.61
+
+#### 1.2.0
+- Fix & add OccupancySensor
+- update has-node@0.2.5
+- update athom-api@2.0.37
+
+#### 1.1.9
+- Fix README
+
+#### 1.1.8
+- Fix info & README
+
+#### 1.1.7
+- If wakeup interval > 15 seconds - no online state
 
 #### 1.1.6
 - Extended support for status updates of devices
